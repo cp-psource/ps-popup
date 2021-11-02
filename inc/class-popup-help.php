@@ -3,6 +3,7 @@
 /**
 
  * Contextual Plugin Help
+ *  @since  1.6.
 
  */
 
@@ -10,7 +11,7 @@
 
 add_action( 'popup-init', array( 'IncPopupHelp', 'instance' ) );
 
-@since  1.6.
+
 
 class IncPopupHelp {
 
@@ -25,7 +26,7 @@ class IncPopupHelp {
 	 * @since  1.6.1.1
 
 	 */
-@since  1.6.
+
 	static public function instance() {
 
 		static $Inst = null;
@@ -38,7 +39,6 @@ class IncPopupHelp {
 
 		}
 
-@since  1.6.
 
 		return $Inst;
 
@@ -68,7 +68,7 @@ class IncPopupHelp {
 
 		);
 
-	}@since  1.6.
+	}
 
 
 

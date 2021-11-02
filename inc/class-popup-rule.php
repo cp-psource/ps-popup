@@ -13,7 +13,6 @@ class IncPopupRules {
 	// List of classes.
 
 	static public $classes = array();
-@since  1.
 
 
 	// List of all rules.
@@ -23,7 +22,7 @@ class IncPopupRules {
 
 
 	/**
-@since  1.
+     *
 	 * Register a new rule class.
 
 	 *
@@ -247,7 +246,7 @@ class IncPopupRules {
 			}
 
 		}
-@since  1.
+
 		return '';
 
 	}
@@ -280,7 +279,7 @@ class IncPopupRules {
 
 			foreach ( $list as $key => $rule ) {
 
-				@since  1.pup->uses_rule( $key ) ) { continue; }
+				if ( ! $popup->uses_rule( $key ) ) { continue; }
 
 
 

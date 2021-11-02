@@ -313,7 +313,7 @@ class IncPopup extends IncPopupBase {
 		$popup = new IncPopupItem();
 
 		$data = lib3()->array->get( $options );
-@since  1.6.
+
 		$data['content'] = $contents;
 
 		$popup->populate( $data );

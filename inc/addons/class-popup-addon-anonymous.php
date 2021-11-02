@@ -78,7 +78,7 @@ class IncPopupAddon_AnonyousLoading {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -150,7 +150,7 @@ class IncPopupAddon_AnonyousLoading {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $loading_methods
 
@@ -202,7 +202,7 @@ class IncPopupAddon_AnonyousLoading {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $method The option saved on the settings screen.
 

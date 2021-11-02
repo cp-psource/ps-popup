@@ -30,7 +30,7 @@ class IncPopupAddon_GeoDB {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 

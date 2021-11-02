@@ -38,7 +38,7 @@ class IncPopupAddon_HeaderFooter {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 

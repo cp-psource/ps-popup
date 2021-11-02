@@ -44,7 +44,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -118,7 +118,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -154,7 +154,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -176,7 +176,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 
@@ -220,7 +220,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -256,7 +256,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -278,7 +278,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 
@@ -322,7 +322,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data
 
@@ -354,7 +354,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $name
 
@@ -492,7 +492,7 @@ class IncPopupRule_XProfile extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $type Type of rule: Either 'match' or 'fail'.
 

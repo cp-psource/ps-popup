@@ -44,7 +44,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 */
 
@@ -142,7 +142,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -178,7 +178,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -250,7 +250,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 
@@ -298,7 +298,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -334,7 +334,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -406,7 +406,7 @@ class IncPopupRule_Datetime extends IncPopupRule {
 
 	 *
 
-	 * @since  4.7.1
+	 * @since  1.7.1
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 

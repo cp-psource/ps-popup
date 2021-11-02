@@ -64,7 +64,7 @@ class IncPopupRule_ProtectedContent extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 

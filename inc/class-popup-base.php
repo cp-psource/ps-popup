@@ -256,7 +256,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return bool
 
@@ -288,7 +288,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return bool
 
@@ -340,7 +340,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array Core Popup styles.
 
@@ -400,7 +400,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $list
 
@@ -490,7 +490,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array List of rule-files.
 
@@ -538,7 +538,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -586,7 +586,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $form Raw form array, submitted from WP admin.
 
@@ -752,7 +752,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -818,7 +818,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array
 
@@ -856,7 +856,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.8.0.0
+	 * @since  1.8.0.0
 
 	 * @return object {
 
@@ -1134,7 +1134,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array
 
@@ -1154,7 +1154,7 @@ abstract class IncPopupBase {
 
 		 *
 
-		 * @since  4.8.0.0
+		 * @since  1.8.0.0
 
 		 */
 
@@ -1190,7 +1190,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array List of all popups that fit the current page.
 
@@ -1250,7 +1250,7 @@ abstract class IncPopupBase {
 
 		 *
 
-		 * @since  4.8.0.0
+		 * @since  1.8.0.0
 
 		 */
 
@@ -1326,7 +1326,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  int $id PopUp ID
 
@@ -1356,7 +1356,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.7.2.0
+	 * @since  1.7.2.0
 
 	 * @param  string $name Name of the view (filename without extension).
 
@@ -1424,7 +1424,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 * @param  array $data Data collection that is printed to javascript.
 
@@ -1476,7 +1476,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 */
 
@@ -1514,7 +1514,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 * @param  string $script
 
@@ -1576,7 +1576,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 */
 
@@ -1608,7 +1608,7 @@ abstract class IncPopupBase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 */
 

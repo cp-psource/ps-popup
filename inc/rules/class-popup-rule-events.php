@@ -44,7 +44,7 @@ class IncPopupRule_Events extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -104,7 +104,7 @@ class IncPopupRule_Events extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  IncPopupItem $popup The PopUp that is displayed
 
@@ -180,7 +180,7 @@ class IncPopupRule_Events extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data Data collection that is printed to javascript.
 
@@ -224,7 +224,7 @@ class IncPopupRule_Events extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -374,7 +374,7 @@ class IncPopupRule_Events extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data Data collection that is printed to javascript.
 
@@ -418,7 +418,7 @@ class IncPopupRule_Events extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 

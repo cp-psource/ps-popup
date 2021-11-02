@@ -44,7 +44,7 @@ class IncPopupRule_Prosite extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -108,7 +108,7 @@ class IncPopupRule_Prosite extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -132,7 +132,7 @@ class IncPopupRule_Prosite extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 

@@ -40,7 +40,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -150,7 +150,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -172,7 +172,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -212,7 +212,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 
@@ -254,7 +254,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -276,7 +276,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -316,7 +316,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 
@@ -360,7 +360,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -418,7 +418,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -462,7 +462,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $list List of referers to check.
 
@@ -524,7 +524,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return bool
 
@@ -604,7 +604,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $referrer
 
@@ -660,7 +660,7 @@ class IncPopupRule_Referrer extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return string
 

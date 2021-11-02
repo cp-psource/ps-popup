@@ -14,7 +14,7 @@ require_once PO_INC_DIR . 'class-popup-help.php';
 
  *
 
- * @since  4.6.0
+ * @since  1.6.0
 
  */
 
@@ -28,7 +28,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -72,7 +72,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -166,7 +166,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -489,7 +489,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -627,7 +627,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -645,7 +645,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -691,7 +691,7 @@ class IncPopup extends IncPopupBase {
 
 				 *
 
-				 * @since  4.6.1.1
+				 * @since  1.6.1.1
 
 				 */
 
@@ -735,7 +735,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -753,7 +753,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -861,7 +861,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  array $post_columns
 
@@ -919,7 +919,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.7.1.1
+	 * @since  1.7.1.1
 
 	 * @param  string $column WordPress choice of the column ID.
 
@@ -941,7 +941,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.7.1.1
+	 * @since  1.7.1.1
 
 	 * @param  array $actions
 
@@ -967,7 +967,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  string $column The column-key (defined in post_columns above).
 
@@ -1275,7 +1275,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  array $views Default filters.
 
@@ -1387,7 +1387,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  array $actions Default list of bulk actions.
 
@@ -1417,7 +1417,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @see    wp-admin/edit.php
 
@@ -1457,7 +1457,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -1667,7 +1667,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -1695,7 +1695,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  int $value Default value set in Database
 
@@ -1727,7 +1727,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -1749,7 +1749,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  array $order List of popup-IDs
 
@@ -1825,7 +1825,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  int $post_id Post ID that was saved/created
 
@@ -1891,7 +1891,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 */
 
@@ -1959,7 +1959,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2133,7 +2133,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2177,7 +2177,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2199,7 +2199,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2221,7 +2221,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2243,7 +2243,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2265,7 +2265,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.7.0
+	 * @since  1.7.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2287,7 +2287,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  WP_Post $post The PopUp being edited.
 
@@ -2309,7 +2309,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  int $post_id Post ID that was saved/created
 
@@ -2475,7 +2475,7 @@ class IncPopup extends IncPopupBase {
 
 	 *
 
-	 * @since  4.6.0
+	 * @since  1.6.0
 
 	 * @param  string $url The redirect URL.
 

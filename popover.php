@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Plugin Name: PS-Popup PRO
+ * Plugin Name: PS-Popup
  * Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
  * Description: Ermöglicht es Besuchern auf der ganzen Webseite ein ausgefallenes PopUp anzuzeigen. Eine *sehr* effektive Art, eine Mailingliste, ein Sonderangebot oder eine einfache alte Anzeige zu bewerben.
- * Version:     4.8.2
- * Author:      WPMS N@W
+ * Version:     1.8.2
+ * Author:      WMS N@W
  * Author URI:  https://n3rds.work
  * Textdomain:  popover
  */
@@ -49,11 +49,11 @@ function inc_popup_init() {
 
 	);
 	
-	require 'inc/external/psource-plugin-update/plugin-update-checker.php';
+	require 'psource/psource-plugin-update/psource-plugin-updater.php';
 $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=ps-popup-pro', //Metadata URL.
-	__FILE__, //Full path to the main plugin file.
-	'ps-popup-pro' //Plugin slug. Usually it's the same as the name of the directory.
+	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=ps-popup-pro', 
+	__FILE__, 
+	'ps-popup-pro' 
 );
 
 
@@ -106,16 +106,6 @@ $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	foreach ( $modules as $path ) {
 		if ( file_exists( $path ) ) { require_once $path; }
 	}
-
-	// Register the current plugin, for pro and free plugins!
-	do_action(
-		'wdev-register-plugin',
-		/*             Plugin ID */ plugin_basename( __FILE__ ),
-		/*          Plugin Title */ 'PS PopUp',
-		/* https://wordpress.org */ '/plugins/ps-popup/',
-		/*      Email Button CTA */ $cta_label,
-		/*  getdrip Plugin param */ $drip_param
-	);
 
 	// Initialize the plugin as soon as we have identified the current user.
 	IncPopup::instance();

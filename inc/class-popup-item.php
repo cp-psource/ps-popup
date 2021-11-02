@@ -378,7 +378,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -508,7 +508,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array|object $data Describes the data to populate the popup with.
 
@@ -648,7 +648,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -932,7 +932,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  int $id The post_id of the popup in database.
 
@@ -1078,7 +1078,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  bool $show_message If true then a success message will be
 
@@ -1316,7 +1316,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.7.0
+	 * @since  1.7.0
 
 	 * @param  string $content
 
@@ -1430,7 +1430,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $key Rule-ID.
 
@@ -1476,7 +1476,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.8.0.0
+	 * @since  1.8.0.0
 
 	 * @return array List of variables
 
@@ -1854,7 +1854,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return string HTML code.
 
@@ -1990,7 +1990,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return string CSS code.
 
@@ -2062,7 +2062,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  bool $is_preview Optional. Defines if we display a preview of the
 
@@ -2126,7 +2126,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data The PopUp data collection.
 
@@ -2166,7 +2166,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.7
+	 * @since  1.7
 
 	 * @param  strong $name Name of the javascript variable that holds the popup.
 
@@ -2234,7 +2234,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $key Rule ID.
 
@@ -2284,7 +2284,7 @@ class IncPopupItem {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $key Status Key.
 

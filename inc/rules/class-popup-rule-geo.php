@@ -44,7 +44,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -128,7 +128,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -156,7 +156,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -216,7 +216,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $data The contents of $_POST['po_rule_data'].
 
@@ -260,7 +260,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -288,7 +288,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  mixed $data Rule-data which was saved via the save_() handler.
 
@@ -348,7 +348,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return mixed Data collection of this rule.
 
@@ -390,7 +390,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return string The IP Address
 
@@ -450,7 +450,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return bool
 
@@ -526,7 +526,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 * @return object Service object for geo lookup
 
@@ -602,7 +602,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $ip The IP Address.
 
@@ -710,7 +710,7 @@ class IncPopupRule_Geo extends IncPopupRule {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 */
 

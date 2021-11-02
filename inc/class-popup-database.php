@@ -24,7 +24,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -54,7 +54,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -80,7 +80,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return boolean Database state (true = everything okay)
 
@@ -118,7 +118,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $table Table name without prefix.
 
@@ -200,7 +200,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -786,7 +786,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  int $post_id ID of the PopUp
 
@@ -842,7 +842,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array List of active popups.
 
@@ -900,7 +900,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return int Next free order position; bottom of the list.
 
@@ -956,7 +956,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -1068,7 +1068,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  int $id Optional. Don't count this PopUp in the results.
 
@@ -1112,7 +1112,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -1164,7 +1164,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 * @return array Loading methods displayed in the Settings screen.
 
@@ -1272,7 +1272,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @return array.
 
@@ -1340,7 +1340,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  array $value The value to save.
 
@@ -1362,7 +1362,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $key
 
@@ -1428,7 +1428,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -1502,7 +1502,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -1524,7 +1524,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -1568,7 +1568,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 * @param  string $ip The IP Address.
 
@@ -1680,7 +1680,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 */
 
@@ -1710,7 +1710,7 @@ class IncPopupDatabase {
 
 	 *
 
-	 * @since  4.6.1.1
+	 * @since  1.6.1.1
 
 	 * @return array List of available webservices.
 

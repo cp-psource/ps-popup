@@ -46,7 +46,7 @@ class IncPopupPosttype {
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 
@@ -130,7 +130,7 @@ Neues PopUp
 
 	 *
 
-	 * @since  4.6
+	 * @since  1.6
 
 	 */
 

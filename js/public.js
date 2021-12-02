@@ -546,7 +546,7 @@ window.IncPopup = function IncPopup( _options ) {
 			} else {
 				// E.g. Gravity Forms
 				me.data.did_ajax = false;
-				frame.load( process_document );
+				frame.on("load",  process_document );
 			}
 		}
 

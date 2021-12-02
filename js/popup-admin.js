@@ -247,11 +247,11 @@ jQuery(function init_admin() {
 			});
 		};
 
-		chk_colors.click( toggle_section );
-		chk_size.click( toggle_section );
-		chk_can_hide.click( toggle_section );
-		chk_close_hides.click( toggle_section );
-		opt_display.click( toggle_section_group );
+		chk_colors.on("click", toggle_section );
+		chk_size.on("click", toggle_section );
+		chk_can_hide.on("click", toggle_section );
+		chk_close_hides.on("click", toggle_section );
+		opt_display.on("click", toggle_section_group );
 
 		toggle_section.call( chk_colors );
 		toggle_section.call( chk_size );
@@ -332,8 +332,8 @@ jQuery(function init_admin() {
 			form.toggleClass( 'open' );
 		};
 
-		all_rules.find( 'input.wpmui-toggle-checkbox' ).click( toggle_rule );
-		all_rules.find( '.rule' ).click( toggle_checkbox );
+		all_rules.find( 'input.wpmui-toggle-checkbox' ).on("click", toggle_rule );
+		all_rules.find( '.rule' ).on("click", toggle_checkbox );
 		active_rules.on( 'click', '.rule-title,.rule-toggle', toggle_form );
 
 		// Exclude rules.
@@ -498,7 +498,7 @@ jQuery(function init_admin() {
 			if ( undefined === window.inc_popup ) { return false; }
 
 			body.addClass( 'wpmui-loading' );
-			window.inc_popup.load( po_id );
+			window.inc_popup.on("load",  po_id );
 			return false;
 		};
 
@@ -514,7 +514,7 @@ jQuery(function init_admin() {
 			data = ajax.extract_data( form );
 			body.addClass( 'wpmui-loading' );
 
-			window.inc_popup.load( 0, data );
+			window.inc_popup.on("load",  0, data );
 			return false;
 		};
 

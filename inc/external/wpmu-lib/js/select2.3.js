@@ -342,7 +342,7 @@ var requirejs, require, define;
                            hasProp(defining, depName)) {
                     args[i] = callDep(depName);
                 } else if (map.p) {
-                    map.p.load(map.n, makeRequire(relName, true), makeLoad(depName), {});
+                    map.p.on("load", map.n, makeRequire(relName, true), makeLoad(depName), {});
                     args[i] = defined[depName];
                 } else {
                     throw new Error(name + ' missing ' + depName);

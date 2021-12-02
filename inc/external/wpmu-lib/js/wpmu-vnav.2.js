@@ -144,7 +144,7 @@ jQuery(function() {
 		wnd.resize( close_sections );
 
 		// Timeout of 50ms: Screen needs to refresh once before this works.
-		window.setTimeout( function() { jQuery( '.active h3', context ).click(); }, 50 );
+		window.setTimeout( function() { jQuery( '.active h3', context ).trigger("click"); }, 50 );
 	}
 
 	// Add a new jQuery function to init a vnav container

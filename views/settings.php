@@ -330,7 +330,7 @@ $ordered_rules = array();
 
 
 
-								jQuery('.test-location').click( test_geo );
+								jQuery('.test-location').on("click", test_geo );
 
 							});
 

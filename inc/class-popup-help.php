@@ -58,15 +58,12 @@ class IncPopupHelp {
 
 	private function __construct() {
 
-		add_filter(
+		//add_filter( 'contextual_help', array( $this, 'setup_help' ), 5, 3 );
 
-			'contextual_help',
-
-			array( $this, 'setup_help' ),
-
-			5, 3
-
-		);
+		public function add_help_tab() {
+			get_current_screen()->add_help_tab( 
+				array( $this, 'setup_help' ) );
+		}
 
 	}
 

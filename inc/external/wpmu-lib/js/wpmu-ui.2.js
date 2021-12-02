@@ -434,7 +434,7 @@
 		el_msg.appendTo( container );
 		el_btn.appendTo( container )
 			.find( '.button-primary' )
-			.focus();
+			.trigger('focus');
 
 		return true;
 	};

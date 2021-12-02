@@ -251,7 +251,7 @@ the specific language governing permissions and limitations under the Apache Lic
         window.setTimeout(function() {
             var el=$el[0], pos=$el.val().length, range;
 
-            $el.focus();
+            $el.trigger('focus');
 
             /* make sure el received focus so we do not error out when trying to manipulate the caret.
                 sometimes modals or others listeners may steal it after its set */
@@ -281,7 +281,7 @@ the specific language governing permissions and limitations under the Apache Lic
             offset = el.selectionStart;
             length = el.selectionEnd - offset;
         } else if ('selection' in document) {
-            el.focus();
+            el.trigger('focus');
             var sel = document.selection.createRange();
             length = document.selection.createRange().text.length;
             sel.moveStart('character', -el.value.length);
@@ -844,7 +844,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
             this.autofocus = opts.element.prop("autofocus");
             opts.element.prop("autofocus", false);
-            if (this.autofocus) this.focus();
+            if (this.autofocus) this.trigger('focus');
 
             this.search.attr("placeholder", opts.searchInputPlaceholder);
         },
@@ -1993,7 +1993,7 @@ the specific language governing permissions and limitations under the Apache Lic
                 this.search.val(this.focusser.val());
             }
             if (this.opts.shouldFocusInput(this)) {
-                this.search.focus();
+                this.search.trigger('focus');
                 // move the cursor to the end after focussing, otherwise it will be at the beginning and
                 // new text will appear *before* focusser.val()
                 el = this.search.get(0);
@@ -2029,7 +2029,7 @@ the specific language governing permissions and limitations under the Apache Lic
             this.focusser.prop("disabled", false);
 
             if (this.opts.shouldFocusInput(this)) {
-                this.focusser.focus();
+                this.focusser.trigger('focus');
             }
         },
 
@@ -2040,7 +2040,7 @@ the specific language governing permissions and limitations under the Apache Lic
             } else {
                 this.focusser.prop("disabled", false);
                 if (this.opts.shouldFocusInput(this)) {
-                    this.focusser.focus();
+                    this.focusser.trigger('focus');
                 }
             }
         },
@@ -2056,7 +2056,7 @@ the specific language governing permissions and limitations under the Apache Lic
             this.focusser.prop("disabled", false);
 
             if (this.opts.shouldFocusInput(this)) {
-                this.focusser.focus();
+                this.focusser.trigger('focus');
             }
         },
 
@@ -2157,7 +2157,7 @@ the specific language governing permissions and limitations under the Apache Lic
                 if (document.activeElement === this.body.get(0)) {
                     window.setTimeout(this.bind(function() {
                         if (this.opened()) {
-                            this.search.focus();
+                            this.search.trigger('focus');
                         }
                     }), 0);
                 }
@@ -2209,7 +2209,7 @@ the specific language governing permissions and limitations under the Apache Lic
                 this.clear();
                 killEventImmediately(e);
                 this.close();
-                this.selection.focus();
+                this.selection.trigger('focus');
             }));
 
             selection.on("mousedown touchstart", this.bind(function (e) {
@@ -2231,7 +2231,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
             dropdown.on("mousedown touchstart", this.bind(function() {
                 if (this.opts.shouldFocusInput(this)) {
-                    this.search.focus();
+                    this.search.trigger('focus');
                 }
             }));
 
@@ -2443,7 +2443,7 @@ the specific language governing permissions and limitations under the Apache Lic
             this.close();
 
             if ((!options || !options.noFocus) && this.opts.shouldFocusInput(this)) {
-                this.focusser.focus();
+                this.focusser.trigger('focus');
             }
 
             if (!equal(old, this.id(data))) {
@@ -2681,7 +2681,7 @@ the specific language governing permissions and limitations under the Apache Lic
             var _this = this;
             this.selection.on("click", ".select2-search-choice:not(.select2-locked)", function (e) {
                 //killEvent(e);
-                _this.search[0].focus();
+                _this.search[0].trigger('focus');
                 _this.selectChoice($(this));
             });
 
@@ -2919,7 +2919,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
             this.updateResults(true);
             if (this.opts.shouldFocusInput(this)) {
-                this.search.focus();
+                this.search.trigger('focus');
             }
             this.opts.element.trigger($.Event("select2-open"));
         },
@@ -2933,7 +2933,7 @@ the specific language governing permissions and limitations under the Apache Lic
         // multi
         focus: function () {
             this.close();
-            this.search.focus();
+            this.search.trigger('focus');
         },
 
         // multi

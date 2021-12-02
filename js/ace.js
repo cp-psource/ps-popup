@@ -1983,7 +1983,7 @@ ace.define("ace/keyboard/textinput", ["require", "exports", "module", "ace/lib/e
             resetSelection();
         });
         this.focus = function() {
-            text.focus();
+            text.trigger('focus');
         };
         this.blur = function() {
             text.blur();
@@ -2448,7 +2448,7 @@ ace.define("ace/mouse/default_handlers", ["require", "exports", "module", "ace/l
 
             this.mousedownEvent.time = Date.now();
             if (inSelection && !editor.isFocused()) {
-                editor.focus();
+                editor.trigger('focus');
                 if (this.$focusTimout && !this.$clickSelection && !editor.inMultiSelectMode) {
                     this.setState("focusWait");
                     this.captureMouse(ev);
@@ -3081,7 +3081,7 @@ ace.define("ace/mouse/dragdrop_handler", ["require", "exports", "module", "ace/l
                     start: dragCursor,
                     end: editor.session.insert(dragCursor, dropData)
                 };
-                editor.focus();
+                editor.trigger('focus');
                 dragOperation = null;
             }
             clearDragMarker();
@@ -3786,7 +3786,7 @@ ace.define("ace/mouse/mouse_handler", ["require", "exports", "module", "ace/lib/
         var focusEditor = function(e) {
             if (!editor.isFocused() && editor.textInput)
                 editor.textInput.moveToMouse(e);
-            editor.focus()
+            editor.trigger('focus')
         };
 
         var mouseTarget = editor.renderer.getMouseEventTarget();
@@ -3812,7 +3812,7 @@ ace.define("ace/mouse/mouse_handler", ["require", "exports", "module", "ace/lib/
         event.addListener(mouseTarget, "mousedown", focusEditor);
 
         event.addListener(gutterEl, "mousedown", function(e) {
-            editor.focus();
+            editor.trigger('focus');
             return event.preventDefault(e);
         });
 
@@ -3973,7 +3973,7 @@ ace.define("ace/mouse/fold_handler", ["require", "exports", "module"], function(
                 if (session.foldWidgets && session.foldWidgets[row])
                     editor.session.onFoldWidgetClick(row, e);
                 if (!editor.isFocused())
-                    editor.focus();
+                    editor.trigger('focus');
                 e.stop();
             }
         });
@@ -11866,9 +11866,9 @@ ace.define("ace/editor", ["require", "exports", "module", "ace/lib/fixoldbrowser
         this.focus = function() {
             var _self = this;
             setTimeout(function() {
-                _self.textInput.focus();
+                _self.textInput.trigger('focus');
             });
-            this.textInput.focus();
+            this.textInput.trigger('focus');
         };
         this.isFocused = function() {
             return this.textInput.isFocused();

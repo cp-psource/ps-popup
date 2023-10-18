@@ -4,7 +4,7 @@
  * Plugin Name: PS-Popup
  * Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
  * Description: Ermöglicht es Besuchern auf der ganzen Webseite ein ausgefallenes PopUp anzuzeigen. Eine *sehr* effektive Art, eine Mailingliste, ein Sonderangebot oder eine einfache alte Anzeige zu bewerben.
- * Version:     1.8.2
+ * Version:     1.8.3
  * Author:      WMS N@W
  * Author URI:  https://n3rds.work
  * Textdomain:  popover
@@ -36,7 +36,14 @@
  * MA 02110-1301 USA
  */
 
-
+require 'psource/psource-plugin-update/psource-plugin-updater.php';
+use Psource\PluginUpdateChecker\v5\PucFactory;
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=ps-popup', 
+	__FILE__, 
+	'ps-popup' 
+);
+ 
 
 function inc_popup_init() {
 	// Check if the PRO plugin is present and activated.
@@ -50,14 +57,6 @@ function inc_popup_init() {
 
 	);
 	
-	require 'psource/psource-plugin-update/psource-plugin-updater.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=ps-popup-pro', 
-	__FILE__, 
-	'ps-popup-pro' 
-);
-
-
 	/**
 	 * The current DB/build version. NOT THE SAME AS THE PLUGIN VERSION!
 	 * Increase this when DB structure changes, migration code is required, etc.

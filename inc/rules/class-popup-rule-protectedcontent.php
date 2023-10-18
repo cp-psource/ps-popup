@@ -1,39 +1,19 @@
 <?php
 
 /*
-
 Name:        PS Mitgliedschaften
-
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-mitglieder-plugin/
-
 Description: Bedingungen basierend auf den Abonnements von PS Mitgliedschaften des Benutzers. 
-
 Author:      DerN3rd (WMS N@W)
-
 Author URI:  https://n3rds.work
-
 Type:        Rule
-
 Rules:       Für Mitglieder (PS Mitgliedschaften), Für Nichtmitglieder (PS Mitgliedschaften)
-
 Limit:       pro
-
 Version:     1.1
 
-
-
-NOTE: DON'T RENAME THIS FILE!!
-
-This filename is saved as metadata with each popup that uses these rules.
-
-Renaming the file will DISABLE the rules, which is very bad!
-
-
-
-This rule is called PROTECTED CONTENT but it actually handles the MEMBERSHIP 2
-
-integration since the plugin was re-branded as M2.
-
+HINWEIS: DIESE DATEI NICHT UMBENENNEN!!
+Dieser Dateiname wird als Metadaten bei jedem Popup gespeichert, das diese Regeln verwendet.
+Durch das Umbenennen der Datei werden die Regeln deaktiviert, was sehr schlecht ist!
 */
 
 
@@ -42,60 +22,34 @@ integration since the plugin was re-branded as M2.
 
 class IncPopupRule_ProtectedContent extends IncPopupRule {
 
-
+	public $is_active;
 
 	/**
-
 	 * A list of all available memberships, even inactive and private ones.
-
 	 *
-
 	 * @since 1.0
-
 	 */
-
 	protected $memberships = array();
 
-
-
 	/**
-
 	 * Initialize the rule object.
-
 	 *
-
 	 * @since  1.6
-
 	 */
-
 	protected function init() {
-
 		global $wpdb;
-
 		$this->filename = basename( __FILE__ );
 
-
-
 		// 'pc_subscription' rule.
-
 		$this->add_rule(
-
 			'pc_subscription',
-
 			__( 'Für Mitglieder (PS Mitgliedschaften)', 'popover' ),
-
 			__( 'Zeigt das PopUp nur an, wenn der Benutzer eine bestimmte Mitgliedschaft abonniert hat (PS Mitgliedschaften-Plugin)..', 'popover' ),
-
 			'pc_unsubscription',
-
 			25
-
 		);
 
-
-
 		// 'pc_unsubscription' rule.
-
 		$this->add_rule(
 
 			'pc_unsubscription',

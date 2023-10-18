@@ -8,6 +8,7 @@
  * Author:      WMS N@W
  * Author URI:  https://n3rds.work
  * Textdomain:  popover
+ * Domain Path: lang
  */
 
 /**

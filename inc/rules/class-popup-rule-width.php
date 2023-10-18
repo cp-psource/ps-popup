@@ -1,108 +1,56 @@
 <?php
 
 /*
-
 Name:        Bildschirmgröße
-
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
-
 Description: Fügt eine Bedingung hinzu, die PopUps auf bestimmte Bildschirmgrößen beschränken kann.
-
 Author:      DerN3rd (WMS N@W)
-
 Author URI:  https://n3rds.work
-
 Type:        Rule
-
 Rules:       Abhängig von der Bildschirmgröße
-
 Limit:       pro
-
 Version:     1.1
 
-
-
 NOTE: DON'T RENAME THIS FILE!!
-
 This filename is saved as metadata with each popup that uses these rules.
-
 Renaming the file will DISABLE the rules, which is very bad!
-
 */
-
-
-
-
 
 class IncPopupRule_Width extends IncPopupRule {
 
-
+	public $max_width;
 
 	/**
-
 	 * Initialize the rule object.
-
 	 *
-
 	 * @since  1.6
-
 	 */
-
 	protected function init() {
-
 		$this->filename = basename( __FILE__ );
 
-
-
 		// 'width' rule.
-
 		$this->add_rule(
-
 			'width',
-
 			__( 'Abhängig von der Bildschirmgröße', 'popover' ),
-
 			__(
-
 				'Zeigt das PopUp an, wenn die Fensterbreite innerhalb der definierten Grenzen ' .
-
 				'liegt. Hinweis: Die Fenstergröße wird beim Laden der Seite überprüft! ' .
-
 				'Wenn der Benutzer die Größe des Fensters ändert, nachdem die Seite geladen wurde ' .
-
 				'wird dies die Regel nicht beeinflussen.', 'popover'
-
 			),
-
 			'',
-
 			30
-
 		);
-
-
 
 		// -- Init the rule.
-
-
-
 		$this->max_width = apply_filters( 'popup-rule-max-screen-width', 2400 );
 
-
-
 		add_filter(
-
 			'popup-output-data',
-
 			array( $this, 'append_data_width' ),
-
 			10, 2
-
 		);
-
 	}
-
-
 
 	/**
 

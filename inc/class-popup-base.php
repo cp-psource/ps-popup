@@ -1420,7 +1420,7 @@ abstract class IncPopupBase {
 
 	 * Currently these plugins are aupported:
 
-	 *   - PS Terminmanager (WMS N@W)
+	 *   - PS Terminmanager (PSOURCE)
 
 	 *
 

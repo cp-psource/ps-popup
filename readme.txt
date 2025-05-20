@@ -1,9 +1,8 @@
 === PS PopUp ===
-Contributors: DerN3rd (WMS N@W)
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
+Contributors: DerN3rd (PSOURCE)
 Tags: widget, custom,post, wordpress, classicpress
 Requires at least: 4.9
-Tested up to: 4.9
+Tested up to: 6.8.1
 Stable tag: 1.8.3
 Requires PHP: 7.0
 License: GPLv2 or later

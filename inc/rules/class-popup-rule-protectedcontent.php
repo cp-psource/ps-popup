@@ -4,7 +4,7 @@
 Name:        PS Mitgliedschaften
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-mitglieder-plugin/
 Description: Bedingungen basierend auf den Abonnements von PS Mitgliedschaften des Benutzers. 
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       Für Mitglieder (PS Mitgliedschaften), Für Nichtmitglieder (PS Mitgliedschaften)

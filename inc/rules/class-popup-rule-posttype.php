@@ -4,7 +4,7 @@
 Name:        Beitragstypen
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
 Description: Fügt Beitragstypbezogene Regeln hinzu.
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       Für bestimmte Beitragstypen, Nicht für bestimmte Beitragstypen

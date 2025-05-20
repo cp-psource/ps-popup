@@ -4,7 +4,7 @@
 Name:        Beitragskategorien
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
 Description: Fügt Regeln für Beitragskategorien hinzu.
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       In der Post-Kategorie, nicht in der Post-Kategorie

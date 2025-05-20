@@ -4,7 +4,7 @@
 Name:        Benutzerdefinierte Taxonomien
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
 Description: Ermöglicht das Anzeigen von PopUps basierend auf anderen Taxonomien als Beitragskategorien.
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       Auf Beitragstaxonomie, Nicht auf Beitragstaxonomie

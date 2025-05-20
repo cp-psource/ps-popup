@@ -8,7 +8,7 @@ Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
 
 Description: Neue Verhaltensoptionen: PopUp anzeigen, wenn die Maus das Browserfenster verlässt oder wenn der Benutzer irgendwo klickt.
 
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 
 Author URI:  https://n3rds.work
 

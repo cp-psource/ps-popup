@@ -4,7 +4,7 @@
 Name:        PS Bloghosting
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-bloghosting/
 Description: Bedingungen basierend auf den Details der PS Bloghosting Seiten (nur für Global PopUps verfügbar). <a href="https://n3rds.work/piestingtal-source-project/ps-bloghosting/" target="_blank">Mehr über PS Bloghosting &raquo;</a>
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       Seite ist keine Bloghosting Pro Seite

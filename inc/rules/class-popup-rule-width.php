@@ -4,7 +4,7 @@
 Name:        Bildschirmgröße
 Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
 Description: Fügt eine Bedingung hinzu, die PopUps auf bestimmte Bildschirmgrößen beschränken kann.
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       Abhängig von der Bildschirmgröße

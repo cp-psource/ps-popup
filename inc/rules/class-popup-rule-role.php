@@ -4,7 +4,7 @@
 Name:        Benutzerrollen
 Plugin URI: https://n3rds.work/piestingtal-source-project/ps-popup/
 Description: Bedingungen basierend auf der Benutzerrolle des aktuellen Benutzers.
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 Author URI:  https://n3rds.work
 Type:        Rule
 Rules:       Besucher hat Rolle, Besucher hat keine Rolle

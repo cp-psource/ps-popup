@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Plugin Name: PS-Popup
- * Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
+ * Plugin Name: PS Popup
+ * Plugin URI:  https://cp-psource.github.io/ps-popup/
  * Description: Ermöglicht es Besuchern auf der ganzen Webseite ein ausgefallenes PopUp anzuzeigen. Eine *sehr* effektive Art, eine Mailingliste, ein Sonderangebot oder eine einfache alte Anzeige zu bewerben.
  * Version:     1.8.3
- * Author:      WMS N@W
- * Author URI:  https://n3rds.work
+ * Author:      PSOURCE
+ * Author URI:  https://github.com/cp-psource
  * Textdomain:  popover
  * Domain Path: lang
  */
@@ -14,7 +14,7 @@
 /**
  * Copyright notice
  *
- * @copyright WMS N@W (https://n3rds.work/)
+ * @copyright PSOURCE (https://github.com/cp-psource)
  *
  * Authors: DerN3rd, Philipp Stracker, Fabio Jun Onishi, Victor Ivanov, Jack Kitterhing, Rheinard Korf, Ashok Kumar Nath
  * Contributors: Joji Mori, Patrick Cohen
@@ -36,14 +36,18 @@
  * MA 02110-1301 USA
  */
 
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=ps-popup', 
-	__FILE__, 
-	'ps-popup' 
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+ 
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/cp-psource/ps-popup',
+	__FILE__,
+	'ps-popup'
 );
  
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
+
 
 function inc_popup_init() {
 	// Check if the PRO plugin is present and activated.

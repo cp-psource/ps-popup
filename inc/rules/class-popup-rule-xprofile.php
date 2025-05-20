@@ -8,7 +8,7 @@ Plugin URI:  https://n3rds.work/piestingtal-source-project/ps-popup/
 
 Description: BuddyPress: Untersuche die Werte im erweiterten Profil des Benutzers.
 
-Author:      DerN3rd (WMS N@W)
+Author:      DerN3rd (PSOURCE)
 
 Author URI:  https://n3rds.work
 

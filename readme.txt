@@ -62,29 +62,6 @@ Wenn Du Deine Mailingliste aufbaust, den Umsatz steigerst oder eine Veranstaltun
 <li>Erreiche ein gesamtes Multisite-Netzwerk</li>
 </ul>
 
-[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
-
-[Projektseite](https://n3rds.work/piestingtal_source/ps-popup/)
-[GitHub](https://github.com/piestingtal-source/ps-popup)
-
-== Mehr PSOURCE ==
-
-= Finde mehr Piestingtal.Source =
-
-Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategorien/psource-plugins/) und hole noch mehr aus Deinem WordPress/ClassicPress!
-
-Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
-
-== Hilf uns ==
-
-Viele, viele Kaffees konsumieren wir während wir an unseren Plugins und Themes arbeiten.
-Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Plugins unterstützen?
-
-= Unterstütze uns =
-
-Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
-
-Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
 == ChangeLog ==
 

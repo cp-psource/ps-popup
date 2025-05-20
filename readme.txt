@@ -3,7 +3,7 @@ Contributors: DerN3rd (PSOURCE)
 Tags: widget, custom,post, wordpress, classicpress
 Requires at least: 4.9
 Tested up to: 6.8.1
-Stable tag: 1.8.3
+Stable tag: 1.8.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -65,7 +65,12 @@ Wenn Du Deine Mailingliste aufbaust, den Umsatz steigerst oder eine Veranstaltun
 
 == ChangeLog ==
 
-= 1.8.3 = DerN3rd =
+= 1.8.4 = 
+
+* New Docs
+* Testet 6.8.1
+
+= 1.8.3 = 
 
 * PSource Updater v.1.1 hinzugefügt
 * PhP8 Fixes
@@ -73,11 +78,11 @@ Wenn Du Deine Mailingliste aufbaust, den Umsatz steigerst oder eine Veranstaltun
 * Textoptimierungen
 * Translations
 
-= 1.8.2 = DerN3rd =
+= 1.8.2 =
 
 * Fixed: Schwerwiegender Error beim aktivieren auf einigen Hosts
 
-= 1.8.1 = DerN3rd =
+= 1.8.1 =
 
 * Fixed: Kleinere Bugs im Javascript
 * Übersetzt: 99%

@@ -9,183 +9,95 @@
  */
 
 class IncPopupDatabase {
-
-
+    /**
+     * @var string|null
+     */
+    public $orig_url = null;
 
 	// Use `self::db_prefix( IP_TABLE );` to get the full table name.
-
 	const IP_TABLE = 'popover_ip_cache';
 
-
-
 	/**
-
 	 * Returns the singleton instance of the popup database class.
-
 	 *
-
 	 * @since  1.6
-
 	 */
-
 	static public function instance() {
-
 		static $Inst = null;
 
-
-
 		if ( null === $Inst ) {
-
 			$Inst = new IncPopupDatabase();
-
 		}
-
-
-
 		return $Inst;
-
 	}
 
-
-
 	/**
-
 	 * Checks the database version and migrates to latest version is required.
-
 	 *
-
 	 * @since  1.6
-
 	 */
 
 	static public function check_db() {
-
 		// Update the DB if required.
-
 		if ( ! IncPopupDatabase::db_is_current() ) {
-
 			IncPopupDatabase::db_update();
-
 		}
-
 	}
 
-
-
 	/**
-
 	 * Checks the state of the database and returns true when the DB has a valid
-
 	 * format for the current plugin version.
-
 	 *
-
 	 * @since  1.6
-
 	 * @return boolean Database state (true = everything okay)
-
 	 */
-
 	static public function db_is_current() {
-
 		$cur_version = self::_get_option( 'popover_installed', 0 );
-
-
-
 		// When no DB-Values exist yet then don't even show the notice in
-
 		// the Network dashboard.
-
 		if ( ! $cur_version ) {
-
 			IncPopupDatabase::set_flag( 'network_dismiss', true );
-
 		}
-
-
-
 		return PO_BUILD == $cur_version;
-
 	}
 
-
-
 	/**
-
 	 * Adds the correct DB prefix to the table and returns the full name.
-
 	 * Takes the setting PO_GLOBAL into account.
-
 	 *
-
 	 * @since  1.6
-
 	 * @param  string $table Table name without prefix.
-
 	 * @return string The prefixed table name.
-
 	 */
-
 	static public function db_prefix( $table ) {
-
 		global $wpdb;
-
 		static $Prefixed = array();
 
-
-
 		// Handle issues where the blog is switched in code (switch_to_blog)
-
 		if ( is_multisite() ) {
-
 			global $blog_id;
-
 		} else {
-
 			$blog_id = 0;
-
 		}
-
-
 
 		if ( ! isset( $Prefixed[ $blog_id ] ) ) {
-
 			$Prefixed[ $blog_id ] = array();
-
 		}
-
-
 
 		if ( ! isset( $Prefixed[ $blog_id ][ $table ] ) ) {
-
 			$Prefixed[ $table ] = $table;
 
-
-
 			if ( defined( 'PO_GLOBAL' ) && true == PO_GLOBAL ) {
-
 				if ( ! empty( $wpdb->base_prefix ) ) {
-
 					$Prefixed[ $blog_id ][ $table ] = $wpdb->base_prefix . $table;
-
 				} else {
-
 					$Prefixed[ $blog_id ][ $table ] = $wpdb->prefix . $table;
-
 				}
-
 			} else {
-
 				$Prefixed[ $blog_id ][ $table ] = $wpdb->prefix . $table;
-
 			}
-
 		}
-
-
-
 		return $Prefixed[ $blog_id ][ $table ];
-
 	}
 
 

@@ -57,23 +57,20 @@ abstract class IncPopupBase {
 
 
 	/**
-
 	 * Data collection for compatibility with other plugins.
-
 	 * @var array
-
 	 */
-
 	protected $compat_data = array();
 
-
-
+	/**
+	 * Holds the original request URL for compatibility.
+	 * @var string|null
+	 */
+	protected $orig_url = null;
 
 
 	/**
-
 	 * Constructor
-
 	 */
 
 	protected function __construct() {
